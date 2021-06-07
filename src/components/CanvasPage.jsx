@@ -56,7 +56,7 @@ class CanvasPage extends Component {
                 </div>
                 <div class="Row">
                     <div class="Column">
-                        <input type="text" placeholder="Display Text" onChange={this.myChangeHandler}></input>
+                        <input id = "input" type="text" placeholder="Display Text" onChange={this.myChangeHandler}></input>
                     </div>
                     <div class="Column">
                     <Dropdown>
