@@ -26,6 +26,7 @@ class CanvasPage extends Component {
       "https://bigvu-interviews-assets.s3.amazonaws.com/images/Erika.png",
       "https://bigvu-interviews-assets.s3.amazonaws.com/images/Eli.png"
       ],
+      names:["Daisi","Shiri","Sarha","Rivka","Noa","Erika","Eli","Images"],
       index:7,
       displayText : '',
       test: '',
@@ -60,6 +61,7 @@ class CanvasPage extends Component {
                     <div class="Column">
                     <Dropdown>
                         <Dropdown.Toggle variant="light" id="dropdown-basic">
+                        {this.state.names[this.state.index]}
                         </Dropdown.Toggle>
                         <Dropdown.Menu>
                             <Dropdown.Item onClick={this.handleDaisi}>Daisi</Dropdown.Item>
